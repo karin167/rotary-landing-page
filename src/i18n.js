@@ -28,13 +28,55 @@ const resources = {
       learnMore: "Learn More",
       joinMakeDifference: "Join Us & Make a Difference",
 
-      // 🖼️ Carousel Translations
-      carousel1Title: "Rotary Event",
-      carousel1Text: "Join our upcoming charity event and make a difference!",
-      carousel2Title: "Community Engagement",
-      carousel2Text: "Be part of a greater cause while having fun!",
-      carousel3Title: "Support & Impact",
-      carousel3Text: "Every contribution helps create a better future.",
+      // How It Works Section
+      howItWorksTitle: "How It Works",
+      registerStep: "Register",
+      registerDetails: "Online registration via HelloAsso (€8 per competitor)",
+      qualifiersStep: "Qualifiers",
+      qualifiersDetails: "12 PM - 3 PM → Longest throw advances!",
+      finalsStep: "Finals",
+      finalsDetails: "3:30 PM Onwards → Compete against top throwers!",
+      enjoyStep: "Enjoy Extras",
+      enjoyDetails: "Enjoy Concerts, Games & Food while waiting for results!",
+
+      // Who Can Participate Section (Updated)
+      whoCanParticipateTitle: "Who Can Participate?",
+      forParentsKids: "For Parents & Kids (4-12 years)",
+      forParentsKidsDetails: "Make lifelong memories together!",
+      forFamilies: "For Families of All Sizes",
+      forFamiliesDetails: "Compete as a team or support from the crowd!",
+      forFriends: "For Friends & Groups",
+      forFriendsDetails: "Join in the fun, even if you're not competing!",
+
+      // Environmental Impact
+      environmentalImpactTitle: "Environmental Impact",
+      environmentalImpactText:
+        "Every ticket helps us protect the Gironde forests! Proceeds go to DFCI.",
+
+      // Testimonials
+      testimonialsTitle: "Testimonials",
+      testimonial1: "Such a unique event! My kids had a blast!",
+      testimonial2: "Great experience! Can't wait for next year!",
+
+      // Sponsors
+      sponsorsTitle: "Sponsors & Partners",
+      sponsorsText: "Thank you to our partners who make this event possible!",
+
+      // FAQ
+      faqTitle: "Frequently Asked Questions",
+      faqQ1: "Do I need experience?",
+      faqA1: "No, anyone can throw!",
+      faqQ2: "Can my whole family join?",
+      faqA2: "Yes! Parents and kids can compete.",
+      faqQ3: "What should I bring?",
+      faqA3: "Just yourself! We provide paper & guides.",
+      faqQ4: "Is food available?",
+      faqA4: "Yes, food trucks will be on-site.",
+
+      // Social Media
+      socialMediaTitle: "Follow Us & Join the Community",
+      socialMediaText: "Instagram & Facebook:",
+      hashtag: "#PaperPlaneChampionship",
     },
   },
   fr: {
@@ -65,14 +107,49 @@ const resources = {
       learnMore: "En savoir plus",
       joinMakeDifference: "Rejoignez-nous et faites une différence",
 
-      // 🖼️ Carousel Translations
-      carousel1Title: "Événement Rotary",
-      carousel1Text:
-        "Participez à notre prochain événement caritatif et faites la différence !",
-      carousel2Title: "Engagement communautaire",
-      carousel2Text: "Participez à une grande cause tout en vous amusant !",
-      carousel3Title: "Soutien & Impact",
-      carousel3Text: "Chaque contribution aide à créer un avenir meilleur.",
+      // Sections
+      howItWorksTitle: "Comment ça fonctionne",
+      registerStep: "S'inscrire",
+      registerDetails: "Inscription en ligne via HelloAsso (8€ par concurrent)",
+      qualifiersStep: "Qualifications",
+      qualifiersDetails: "12h - 15h → Le plus long lancer avance!",
+      finalsStep: "Finales",
+      finalsDetails: "15h30 et plus → Affrontez les meilleurs concurrents!",
+      enjoyStep: "Profitez de l'événement",
+      enjoyDetails:
+        "Concerts, jeux et restauration en attendant les résultats!",
+
+      // Who Can Participate Section (Updated)
+      whoCanParticipateTitle: "Qui peut participer?",
+      forParentsKids: "Pour les parents et enfants (4-12 ans)",
+      forParentsKidsDetails: "Créez des souvenirs inoubliables ensemble!",
+      forFamilies: "Pour les familles de toutes tailles",
+      forFamiliesDetails: "Concourez en équipe ou encouragez les participants!",
+      forFriends: "Pour les amis et groupes",
+      forFriendsDetails:
+        "Rejoignez l'événement, même si vous ne participez pas!",
+
+      environmentalImpactTitle: "Impact environnemental",
+      environmentalImpactText:
+        "Chaque billet aide à protéger les forêts de Gironde!",
+      testimonialsTitle: "Témoignages",
+      testimonial1: "Un événement unique! Mes enfants ont adoré!",
+      testimonial2: "Expérience géniale! Hâte de l'année prochaine!",
+      sponsorsTitle: "Sponsors & Partenaires",
+      sponsorsText:
+        "Merci à nos partenaires qui rendent cet événement possible!",
+      faqTitle: "Questions fréquentes",
+      faqQ1: "Ai-je besoin d'expérience?",
+      faqA1: "Non, tout le monde peut participer!",
+      faqQ2: "Toute ma famille peut-elle participer?",
+      faqA2: "Oui! Parents et enfants peuvent concourir.",
+      faqQ3: "Que dois-je apporter?",
+      faqA3: "Juste vous-même! Nous fournissons le papier et les guides.",
+      faqQ4: "Y aura-t-il de la nourriture?",
+      faqA4: "Oui, des food trucks seront sur place.",
+      socialMediaTitle: "Suivez-nous et rejoignez la communauté",
+      socialMediaText: "Instagram & Facebook:",
+      hashtag: "#PaperPlaneChampionship",
     },
   },
 };
