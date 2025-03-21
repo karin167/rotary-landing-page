@@ -49,7 +49,6 @@ function App() {
         </header>
       </section>
       {/* What We Do Section */}
-      jsx Copy Edit
       <section className="what-we-do">
         <h2>{t("whatWeDo")}</h2>
         <p className="what-we-do-description">
