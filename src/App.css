@@ -135,61 +135,57 @@ h3 {
 
 /* 🔹 What We Do Section */
 .what-we-do {
-  padding: 50px;
-  background: rgba(255, 255, 255, 0.15);
-  border-radius: 15px;
-  width: 80%;
-  margin: 50px auto;
-  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.25);
-  transition: all 0.3s ease-in-out;
   text-align: center;
+  padding: 50px 0;
 }
 
-.what-we-do ul {
-  list-style: none;
-  padding: 0;
-}
-
-.what-we-do li {
-  font-size: 18px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  background: rgba(255, 255, 255, 0.1);
-  padding: 15px;
-  border-radius: 10px;
-  transition: all 0.3s ease-in-out;
-  cursor: pointer;
-  text-align: left;
-  width: 80%;
-  margin: 10px auto;
-  font-weight: 500;
-  color: white;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.what-we-do li:hover {
-  background: rgba(255, 255, 255, 0.2);
-  transform: translateY(-5px);
-  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
-}
-
-/* 🎯 כותרת */
 .what-we-do h2 {
   font-size: 32px;
-  font-weight: 800;
-  color: #f7941e; /* Rotary orange */
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  letter-spacing: 1.2px;
-}
-.what-we-do p {
-  font-size: 18px;
+  font-weight: bold;
   color: white;
+  margin-bottom: 10px;
+}
+
+.what-we-do-description {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.9);
   max-width: 700px;
-  margin: 0 auto 30px;
+  margin: 0 auto 30px auto;
   line-height: 1.6;
   font-weight: 400;
+}
+
+.what-we-do-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.what-we-do-item {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.what-we-do-item:hover {
+  transform: scale(1.05);
+}
+
+.what-we-do-icon {
+  font-size: 32px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.what-we-do-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f7941e;
 }
 
 /* 📰 News & Updates Section */
@@ -266,73 +262,69 @@ h3 {
   transform: scale(1.05);
 }
 
+/* 🎯 עיצוב כללי */
 .how-it-works {
-  padding: 40px;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 15px;
-  width: 80%;
-  margin: 40px auto;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
+  padding: 50px 0;
 }
 
 .how-it-works h2 {
-  font-size: 30px;
-  font-weight: bold;
-  color: #f7941e;
-  margin-bottom: 25px;
-}
-
-.event-flow {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.event-step {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: rgba(255, 255, 255, 0.15);
-  padding: 15px 20px;
-  border-radius: 12px;
-  font-size: 18px;
+  font-size: 32px;
   font-weight: bold;
   color: white;
-  transition: background 0.3s ease-in-out;
+  margin-bottom: 20px;
 }
 
-.event-step:hover {
-  background: rgba(255, 255, 255, 0.25);
+/* 🎡 סידור הכרטיסיות בשורה */
+.steps-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
-.event-step .step-number {
-  background: rgba(255, 255, 255, 0.2);
-  padding: 8px 14px;
-  border-radius: 50%;
-  font-size: 16px;
-  font-weight: bold;
-  margin-right: 15px;
-}
-
-.event-step .step-title {
-  flex: 1;
+/* 🔵 כרטיסיות בגודל אחיד */
+.step-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 25px;
+  border-radius: 50px;
+  width: 280px; /* גודל אחיד לכל הכרטיסיות */
+  height: 120px; /* גובה אחיד */
   text-align: left;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-.event-step .step-detail {
-  text-align: right;
+/* ✨ אפקט הגדלה באנימציה */
+.step-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* 🎯 אייקונים מקצועיים - גודל אחיד */
+.step-icon {
+  font-size: 28px;
   color: #f7941e;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+/* 🎯 עיצוב הטקסט */
+.step-content h3 {
+  font-size: 18px;
   font-weight: bold;
-}
-
-.event-step a {
   color: #f7941e;
-  text-decoration: none;
+  margin: 0;
 }
 
-.event-step a:hover {
-  text-decoration: underline;
+.step-content p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 5px 0 0;
 }
 
 .participation-options {
@@ -812,4 +804,197 @@ h3 {
 
 .event-step a:hover {
   text-decoration: underline;
+}
+
+/* 🌍 תמיכה במסכים קטנים (מובייל וטאבלט) */
+@media screen and (max-width: 1024px) {
+  /* ניווט מותאם */
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .join-button {
+    margin-bottom: 50px;
+  }
+
+  .navbar-right {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  /* התאמת כותרות */
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero p {
+    font-size: 18px;
+    max-width: 90%;
+  }
+
+  /* התאמת כפתור */
+  .hero .btn-primary {
+    padding: 12px 25px;
+    font-size: 16px;
+  }
+
+  /* כרטיסיות בשתי עמודות */
+  .cards-container {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 45%;
+  }
+}
+
+/* 📏 התאמה למובייל (עד 480px) */
+@media screen and (max-width: 480px) {
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .join-button {
+    margin-bottom: 40px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .hero .btn-primary {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .card {
+    width: 100%;
+    padding: 15px;
+  }
+
+  /* How It Works מותאם */
+  .how-it-works {
+    width: 95%;
+    padding: 25px;
+  }
+
+  .event-step {
+    font-size: 14px;
+    padding: 10px;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* 📏 התאמה למסכים בינוניים (עד 768px) */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .hero {
+    padding: 20px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .hero .btn-primary {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+}
+
+/* 🎨 עיצוב מחודש לחלק "How It Works" */
+.how-it-works {
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  width: 80%;
+  margin: 50px auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+/* אפקט hover */
+.how-it-works:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.how-it-works h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #f7941e;
+  margin-bottom: 20px;
+}
+
+/* ריווח בין שלבים */
+.steps-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* עיצוב אחיד של שלבים */
+.step-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 25px;
+  border-radius: 50px;
+  width: 320px;
+  height: 160px;
+  text-align: left;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* אפקט hover להגדלה */
+.step-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* אייקונים - גודל אחיד */
+.step-icon {
+  font-size: 28px;
+  color: #f7941e;
+  margin-right: 15px;
+}
+
+/* טקסט */
+.step-content h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f7941e;
+  margin: 0;
+}
+
+.step-content p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 5px 0 0;
 }
