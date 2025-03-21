@@ -1,32 +1,57 @@
-/* Carousel.css */
+/* 🎠 Carousel Container */
 .carousel-container {
-  width: 400px; /* Square width */
-  height: 400px; /* Square height */
-  margin: 40px auto; /* Center it */
-  border-radius: 12px; /* Rounded corners */
+  width: 400px;
+  height: 400px;
+  margin: 40px auto;
+  border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2); /* Elegant shadow effect */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease-in-out;
 }
 
+.carousel-container:hover {
+  transform: scale(1.02);
+}
+
+/* 🖼️ Carousel Image Styling */
 .carousel-item img {
   width: 100%;
   height: 100%;
-  object-fit: contain; /* Ensure the full image is visible */
-  border-radius: 12px; /* Smooth edges */
-  background-color: #fff; /* Add white background to fill empty space */
+  object-fit: contain;
+  border-radius: 12px;
+  background-color: #fff;
 }
 
+/* 💬 Caption Styling */
 .carousel-caption {
-  background: rgba(0, 0, 0, 0.6); /* Darken background for better readability */
+  background: rgba(0, 0, 0, 0.6);
   color: white;
-  padding: 10px;
-  border-radius: 6px;
-  font-size: 14px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 15px;
+  bottom: 20px;
 }
 
-@media (max-width: 768px) {
+/* 📱 Mobile & Tablet */
+@media (max-width: 1024px) {
   .carousel-container {
-    width: 300px; /* Smaller square on mobile */
-    height: 300px;
+    width: 320px;
+    height: 320px;
+  }
+
+  .carousel-caption {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-container {
+    width: 260px;
+    height: 260px;
+  }
+
+  .carousel-caption {
+    font-size: 12px;
+    padding: 8px;
   }
 }

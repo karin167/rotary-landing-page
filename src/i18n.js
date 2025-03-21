@@ -27,6 +27,14 @@ const resources = {
       event3Description: "How we’re making a difference worldwide.",
       learnMore: "Learn More",
       joinMakeDifference: "Join Us & Make a Difference",
+
+      // 🖼️ Carousel Translations
+      carousel1Title: "Rotary Event",
+      carousel1Text: "Join our upcoming charity event and make a difference!",
+      carousel2Title: "Community Engagement",
+      carousel2Text: "Be part of a greater cause while having fun!",
+      carousel3Title: "Support & Impact",
+      carousel3Text: "Every contribution helps create a better future.",
     },
   },
   fr: {
@@ -56,6 +64,15 @@ const resources = {
         "Comment nous faisons une différence dans le monde entier.",
       learnMore: "En savoir plus",
       joinMakeDifference: "Rejoignez-nous et faites une différence",
+
+      // 🖼️ Carousel Translations
+      carousel1Title: "Événement Rotary",
+      carousel1Text:
+        "Participez à notre prochain événement caritatif et faites la différence !",
+      carousel2Title: "Engagement communautaire",
+      carousel2Text: "Participez à une grande cause tout en vous amusant !",
+      carousel3Title: "Soutien & Impact",
+      carousel3Text: "Chaque contribution aide à créer un avenir meilleur.",
     },
   },
 };
