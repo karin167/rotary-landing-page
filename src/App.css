@@ -1,4 +1,4 @@
-/* 🎨 כללי */
+/* 🎨 General Styling */
 body,
 html {
   font-family: "Arial", sans-serif;
@@ -10,13 +10,14 @@ html {
   text-align: center;
 }
 
+/* 🏆 Headings */
 h1,
 h2,
 h3 {
   color: white;
 }
 
-/* 🔹 ניווט */
+/* 🔹 Navbar */
 .navbar {
   display: flex;
   align-items: center;
@@ -41,7 +42,7 @@ h3 {
   gap: 15px;
 }
 
-/* 🔹 כפתורים */
+/* 🔹 Buttons */
 .btn-primary {
   background-color: #f7941e;
   border: none;
@@ -73,7 +74,7 @@ h3 {
   color: white;
 }
 
-/* 🟦 אזור ה-Hero */
+/* 🟦 Hero Section */
 .hero {
   display: flex;
   align-items: center;
@@ -81,13 +82,24 @@ h3 {
   height: 100vh;
   flex-direction: column;
   padding-top: 80px;
+  text-align: center;
 }
 
 .hero-content {
   max-width: 800px;
+  padding: 20px;
 }
 
-/* 🔹 אזור 'מה אנחנו עושים' */
+.hero h1 {
+  font-size: 36px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* 🔹 What We Do Section */
 .what-we-do {
   padding: 50px;
   background: rgba(255, 255, 255, 0.1);
@@ -106,7 +118,7 @@ h3 {
   margin: 10px 0;
 }
 
-/* 📰 חדשות ואירועים */
+/* 📰 News & Updates Section */
 .news-updates {
   padding: 50px;
   background: rgba(255, 255, 255, 0.1);
@@ -115,6 +127,14 @@ h3 {
   margin: 50px auto;
 }
 
+.news-updates h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+/* 🟦 News Cards */
 .cards-container {
   display: flex;
   gap: 20px;
@@ -125,21 +145,147 @@ h3 {
 .card {
   background: white;
   color: #173a89;
-  padding: 20px;
-  border-radius: 10px;
-  width: 300px;
+  padding: 25px;
+  border-radius: 15px;
+  width: 280px;
   text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  cursor: pointer;
 }
 
-.card img {
-  width: 100%;
-  border-radius: 10px;
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* 🟠 פוטר */
+/* 🏆 Event Title Styling */
+.card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f7941e;
+  margin-top: 10px;
+}
+
+/* 📌 Event Subtitle */
+.card p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* 🔹 CTA Button */
+.card .btn-secondary {
+  background: white;
+  color: #173a89;
+  border: 2px solid #173a89;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s, color 0.3s, transform 0.2s;
+}
+
+.card .btn-secondary:hover {
+  background: #173a89;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* 🟠 Footer */
 .footer {
   padding: 30px;
   background: #173a89;
   color: white;
   margin-top: 50px;
+}
+
+/* 🌍 **Full Mobile & Tablet Support** */
+@media screen and (max-width: 1024px) {
+  /* Adjust Navbar for Smaller Screens */
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .navbar-right {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  /* Hero Section Adaptation */
+  .hero {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  /* Cards in a Single Column for Mobile */
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  /* Adjust Footer */
+  .footer {
+    padding: 20px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Make Navbar Mobile-Friendly */
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .navbar-right {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  /* Hero Section Tweaks */
+  .hero {
+    padding: 20px;
+  }
+
+  .hero h1 {
+    font-size: 24px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  /* Cards Stack for Small Screens */
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 95%;
+  }
+
+  /* Footer Adjustments */
+  .footer {
+    padding: 15px;
+    font-size: 12px;
+  }
 }

@@ -1,11 +1,13 @@
 import React from "react";
 import "./App.css";
-import logo from "/public/rotary-logo.png"; // ודא שהלוגו נמצא בתיקיית `public`
+import "bootstrap/dist/css/bootstrap.min.css";
+import ImageCarousel from "./components/ImageCarousel";
+import logo from "/public/rotary-logo.png";
 
 function App() {
   return (
     <div>
-      {/* ניווט */}
+      {/* Navigation */}
       <nav className="navbar">
         <div className="navbar-left">
           <img src={logo} alt="Rotary Mérignac" className="logo" />
@@ -16,7 +18,7 @@ function App() {
         </div>
       </nav>
 
-      {/* אזור ראשי - Hero */}
+      {/* Hero Section */}
       <header className="hero">
         <div className="hero-content">
           <h1>
@@ -32,9 +34,12 @@ function App() {
           </p>
           <button className="btn-primary">Join Us Now</button>
         </div>
+        <div className="carousel-wrapper">
+          <ImageCarousel />
+        </div>
       </header>
 
-      {/* אזור - מה אנחנו עושים */}
+      {/* What We Do Section */}
       <section className="what-we-do">
         <h2>What We Do</h2>
         <p>
@@ -51,7 +56,7 @@ function App() {
         </ul>
       </section>
 
-      {/* כרטיסים של חדשות ואירועים */}
+      {/* News & Updates */}
       <section className="news-updates">
         <h2>News & Updates</h2>
         <div className="cards-container">
@@ -76,7 +81,7 @@ function App() {
         </div>
       </section>
 
-      {/* אזור יצירת קשר */}
+      {/* Contact */}
       <footer className="footer">
         <h2>Join Us & Make a Difference</h2>
         <button className="btn-primary">Join Now</button>
