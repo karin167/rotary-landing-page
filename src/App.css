@@ -17,63 +17,6 @@ h3 {
   color: white;
 }
 
-/* 🔹 Navbar */
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 15px 40px;
-  background: white;
-  position: fixed;
-  width: 100%;
-  height: 80px;
-  top: 0;
-  left: 0;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
-}
-
-.logo {
-  height: 50px;
-}
-
-.navbar-right {
-  display: flex;
-  gap: 15px;
-}
-
-/* 🔹 Buttons */
-.btn-primary {
-  background-color: #f7941e;
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: 0.3s;
-}
-
-.btn-primary:hover {
-  background-color: #d67900;
-}
-
-.btn-secondary {
-  background: white;
-  color: #173a89;
-  border: 2px solid #173a89;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: 0.3s;
-}
-
-.btn-secondary:hover {
-  background: #173a89;
-  color: white;
-}
-
 /* 🎯 HERO SECTION */
 .hero {
   display: flex;
@@ -117,7 +60,6 @@ h3 {
 .join-button {
   margin-bottom: 60px; /* מרווח מתחת לכפתור */
   padding: 14px 28px;
-  background: #f7941e;
   color: white;
   border: none;
   border-radius: 8px;
@@ -125,11 +67,9 @@ h3 {
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  box-shadow: 0px 5px 15px rgba(247, 148, 30, 0.4);
 }
 
 .join-button:hover {
-  background: #f55d00;
   transform: scale(1.05);
 }
 
@@ -222,11 +162,20 @@ h3 {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card:hover {
   transform: translateY(-8px);
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card img {
+  width: 100%;
+  max-height: 160px;
+  object-fit: contain;
+  border-radius: 8px;
 }
 
 /* 🏆 Event Title Styling */
@@ -601,6 +550,7 @@ h3 {
   }
   .join-button {
     margin-bottom: 40px; /* מרווח במובייל */
+    color: #f7941e;
   }
 
   .hero p {
@@ -806,6 +756,10 @@ h3 {
   text-decoration: underline;
 }
 
+.join-button {
+  margin-bottom: 40px; /* מרווח במובייל */
+  color: #f7941e;
+}
 /* 🌍 תמיכה במסכים קטנים (מובייל וטאבלט) */
 @media screen and (max-width: 1024px) {
   /* ניווט מותאם */
