@@ -65,6 +65,9 @@ h3 {
   line-height: 1.6;
   font-weight: 400;
 }
+.hero-section {
+  margin-bottom: 80px; /* זה יעשה הפרדה אמיתית בין הקרוסלה או ה-hero */
+}
 
 /* 🟠 כפתור הצטרפות */
 .join-button {
@@ -86,9 +89,9 @@ h3 {
 /* 🔹 What We Do Section */
 .what-we-do {
   text-align: center;
-  padding: 50px 0;
+  padding: 80px 0 50px 0; /* הגדלנו את ה-padding-top */
+  margin-top: 40px; /* הוספנו מרווח חיצוני */
 }
-
 .what-we-do h2 {
   font-size: 32px;
   font-weight: bold;

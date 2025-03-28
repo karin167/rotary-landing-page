@@ -3,12 +3,10 @@ import "./Carousel.css";
 
 const ImageCarousel = () => {
   return (
-    <div className="hero-image-container">
-      <img
-        src="/images/rotary1.jpg"
-        alt="Rotary Event"
-        className="hero-image"
-      />
+    <div className="hero-container">
+      <div className="hero-box">
+        <img src="/images/rotary1.jpg" alt="Rotary Event" />
+      </div>
     </div>
   );
 };

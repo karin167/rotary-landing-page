@@ -22,10 +22,12 @@ function Home() {
           <p>{t("mission")}</p>
           <button className="btn-primary join-button">{t("joinNow")}</button>
         </div>
-        <div className="carousel-wrapper">
-          <ImageCarousel />
-        </div>
+        <div className="carousel-wrapper"></div>
       </header>
+      <div>
+        {" "}
+        <ImageCarousel />
+      </div>
 
       {/* What We Do */}
       <section className="what-we-do">

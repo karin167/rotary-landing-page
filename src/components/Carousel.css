@@ -1,16 +1,29 @@
-.hero-image-container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 50px auto;
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+/* 🟣 קונטיינר של התמונה */
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
 }
 
-.hero-image {
+/* 🟡 המסגרת */
+.hero-box {
+  background: linear-gradient(90deg, #3b5998, #f7941e); /* או הצבעים שלך */
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 🟠 התמונה */
+.hero-box img {
   width: 100%;
   height: auto;
-  display: block;
-  object-fit: cover;
   border-radius: 16px;
+  display: block;
 }
