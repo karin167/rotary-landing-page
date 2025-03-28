@@ -3,92 +3,87 @@
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  padding: 10px 25px;
+  padding: 10px 20px;
   border-bottom: 1px solid #ccc;
   position: sticky;
   top: 0;
-  z-index: 999;
+  z-index: 1000;
+  flex-wrap: wrap; /* חשוב למובייל */
 }
 
 .logo {
-  height: 48px;
+  height: 50px;
 }
 
-/* Mobile Hamburger Icon */
-.navbar-menu-icon {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-  gap: 5px;
-}
-
-.navbar-menu-icon .bar {
-  width: 25px;
-  height: 3px;
-  background-color: #173a89;
-  transition: all 0.3s ease;
-}
-
-/* Navigation Links */
+.navbar-center,
 .navbar-right {
   display: flex;
-  gap: 15px;
   align-items: center;
+  gap: 12px;
 }
 
-.nav-btn {
+/* כפתורי הניווט */
+.nav-btn, .nav-link {
+  padding: 8px 14px;
+  border-radius: 5px;
+  font-size: 16px;
   font-weight: bold;
-  padding: 8px 18px;
-  border-radius: 6px;
-  border: 2px solid #173a89;
-  background-color: transparent;
-  color: #f7941e;
   text-decoration: none;
+  cursor: pointer;
   transition: all 0.3s ease-in-out;
+  white-space: nowrap;
 }
 
-.nav-btn:hover {
+.nav-link {
   background-color: #173a89;
   color: white;
-  transform: scale(1.05);
+  border: 2px solid #173a89;
 }
 
-.nav-btn.active {
+.nav-link:hover {
   background-color: #f7941e;
   color: white;
+  transform: scale(1.05);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link.active {
+  background-color: #f7941e;
   border-color: transparent;
+  color: white;
 }
 
 .lang-select {
   padding: 6px 10px;
-  border-radius: 4px;
+  border-radius: 5px;
   border: 1px solid #ccc;
   font-size: 14px;
   cursor: pointer;
 }
 
-/* Responsive Styling */
-@media screen and (max-width: 768px) {
-  .navbar-menu-icon {
-    display: flex;
+/* רספונסיביות מתוקנת */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px;
   }
 
-  .navbar-right {
-    display: none;
+  .navbar-center, .navbar-right {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 10px;
     width: 100%;
-    margin-top: 10px;
   }
 
-  .navbar-right.active {
-    display: flex;
-  }
-
-  .nav-btn,
-  .lang-select {
+  .nav-btn, .nav-link, .lang-select {
     width: 100%;
-    text-align: left;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .lang-select {
+    margin-top: 5px;
   }
 }
+
