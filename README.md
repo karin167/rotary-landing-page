@@ -1,16 +1,18 @@
-# 🌍 Rotary Mérignac 
+# 🌍 Rotary Mérignac
+
 🚀 **Rotary Mérignac** is a dynamic and engaged community club dedicated to humanitarian service, ethical leadership, and impactful projects.  
 This landing page serves as a platform to **recruit new members, promote events, and enhance community engagement** on both local and international levels.
 
-Link for the new web page: https://rotary-landing-page.netlify.app/
+🔗 [Live Website Link](https://rotary-landing-page.netlify.app/)
+
 ---
 
 ## 📌 **Key Features**
-✅ **Modern & Responsive Design** – Fully optimized for desktops, tablets, and mobile devices  
-✅ **Event Registration System** – Integrated with **HelloAsso** for seamless sign-ups  
-✅ **Social Media Integration** – Strengthening Rotary Mérignac’s digital presence  
-✅ **Clear Call-to-Actions (CTAs)** – Encouraging visitors to **join, donate, or get involved**  
-✅ **SEO Optimization** – Improving search engine rankings for better visibility  
+- ✅ **Modern & Responsive Design** – Fully optimized for desktops, tablets, and mobile devices  
+- ✅ **Event Registration System** – Integrated with **HelloAsso** for seamless sign-ups  
+- ✅ **Social Media Integration** – Strengthening Rotary Mérignac’s digital presence  
+- ✅ **Clear Call-to-Actions (CTAs)** – Encouraging visitors to **join, donate, or get involved**  
+- ✅ **SEO Optimization** – Improving search engine rankings for better visibility  
 
 ---
 
@@ -21,15 +23,18 @@ Link for the new web page: https://rotary-landing-page.netlify.app/
 
 ---
 
-## 🛠 **Technologies Used**
-- **React.js** – For a dynamic and modular user interface  
-- **CSS3** – For a clean and modern design  
-- **Vite** – For fast development and optimized builds  
-- **Git & GitHub** – For version control and collaboration  
+## 🧰 **Tech Stack Behind the Project**
+- ✅ **React.js** – SPA framework for building all components  
+- ⚡ **Vite** – Fast build tool with Hot Module Reloading  
+- 🎨 **Custom CSS + Bootstrap** – Responsive and interactive UI  
+- 🌐 **i18next** – Professional multi-language support (French & English)  
+- 🔄 **React Router v6** – Smooth navigation between pages  
+- 🗂️ **Component-based architecture** – Clean, scalable, and modular code structure  
 
 ---
 
-## 🚀 **Installation & Setup**
-1️⃣ **Clone the Repository**  
+## 🛠 **Installation & Setup**
+
+### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/karin167/rotary-landing-page.git
