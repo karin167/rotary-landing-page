@@ -1,9 +1,8 @@
-# 🌍 Rotary Mérignac - Landing Page
-
+# 🌍 Rotary Mérignac 
 🚀 **Rotary Mérignac** is a dynamic and engaged community club dedicated to humanitarian service, ethical leadership, and impactful projects.  
 This landing page serves as a platform to **recruit new members, promote events, and enhance community engagement** on both local and international levels.
 
-Link for the landing page: https://rotary-landing-page.netlify.app/
+Link for the new web page: https://rotary-landing-page.netlify.app/
 ---
 
 ## 📌 **Key Features**
