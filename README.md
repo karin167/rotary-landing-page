@@ -19,7 +19,7 @@ This landing page serves as a platform to **recruit new members, promote events,
 ## 🎨 **Design Preview**
 📸 **Screenshots**:  
 ![Homepage](./public/images/rotary-banner.png)  
-![Landing Page](./public/images/rotary-logo.png)  
+ 
 
 ---
 
