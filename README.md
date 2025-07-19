@@ -3,7 +3,7 @@
 🚀 **Rotary Mérignac** is a dynamic and engaged community club dedicated to humanitarian service, ethical leadership, and impactful projects.  
 This landing page serves as a platform to **recruit new members, promote events, and enhance community engagement** on both local and international levels.
 
-🔗 [Live Website Link](https://rotary-landing-page.netlify.app/) ("Currently not available for personal reasons. If anyone would like to view the website, please contact me directly.)
+🔗 [Live Website Link](https://rotary-landing-page.netlify.app/) (Currently not available for personal reasons. If anyone would like to view the website, please contact me directly.)
 
 ---
 
